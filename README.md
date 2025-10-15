@@ -12,7 +12,7 @@ CHD is a lossless compression format originally developed for MAME, for the hard
 
 Instead of programming the logic to handle all this into the script lets let another program do the heavy lifting.
 
-Install `atool`
+Install `atool` and `zip`
 
 `arepack -e -F zip *.7z ; rm -f *.7z`
 
