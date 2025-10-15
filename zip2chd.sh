@@ -45,7 +45,7 @@ for i in ./*.zip; do
 	#chdman createcd -i "${i%.*}.gdi" -o "${i%.*}.chd" 
 
 	echo -e "${Yellow}"
-	chdman createcd -i *.gdi -o "${i%.*}.chd" 
+  chdman createcd -i (*.cue *.gdi) -o "${i%.*}.chd" 
 
 	echo -e "${Green}Moving CHD file to main DIR"
 	mv *.chd ../
